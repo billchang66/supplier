@@ -1,0 +1,429 @@
+.hrpartner .top .calculator, .hrpartner .feature > div div, .hrpartner .partner > div div {
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.14);
+          box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.14);
+  background-color: #ffffff;
+}
+
+.hrpartner {
+  font-size: 16px;
+  color: #595959;
+  margin: 0;
+  font-family: monaco, "SF Pro TC","SF Pro Text","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.hrpartner h1,
+.hrpartner h2,
+.hrpartner h3,
+.hrpartner h4 {
+  text-align: center;
+  color: #292929;
+}
+
+.hrpartner h1 {
+  font-size: 2.5rem;
+  margin: 0px auto 20px;
+}
+
+.hrpartner h2 {
+  margin-bottom: 45px;
+}
+
+.hrpartner h3 {
+  font-size: 2rem;
+}
+
+.hrpartner h4 {
+  font-size: 1.125rem;
+  text-align: left;
+}
+
+.hrpartner a {
+  text-decoration: none;
+  color: #1654b9;
+}
+
+.hrpartner a.btn {
+  width: 210px;
+  height: 50px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 24.5px;
+  background-image: linear-gradient(82deg, #df00c7 -1%, #ff7000 88%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hrpartner .subttl {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #7e7e7e;
+  line-height: 1.67;
+}
+
+.hrpartner section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.hrpartner .top {
+  background: url(../images/bg.jpg) center top no-repeat;
+  background-size: cover;
+  color: white;
+  padding-bottom: 0;
+  /*&::after{
+            background: url(../images/bg_bottom.svg) center bottom no-repeat;
+            content: "";
+            height:100px ;
+            background-size: 100% auto;
+            display: block;
+        }*/
+}
+
+.hrpartner .top svg {
+  margin-bottom: -5px;
+}
+
+.hrpartner .top h1 {
+  color: white;
+}
+
+.hrpartner .top p.subttl {
+  color: white;
+}
+
+.hrpartner .top .point {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+.hrpartner .top .point div {
+  width: 225px;
+  border-radius: 6px;
+  margin: 1px;
+  text-align: center;
+  background: rgba(255, 244, 199, 0.29);
+}
+
+.hrpartner .top .point div span {
+  font-size: 2.25rem;
+  padding: 20px 0;
+  display: block;
+}
+
+.hrpartner .top .point div p {
+  background: rgba(255, 255, 255, 0.26);
+  font-size: 1.125rem;
+  margin: 0;
+  border-radius: 0 0 6px 6px;
+  padding: 12px;
+}
+
+.hrpartner .top .calculator {
+  text-align: center;
+  width: 568px;
+  padding: 20px 16px;
+  margin: 20px auto 50px;
+  color: #292929;
+}
+
+.hrpartner .top .calculator h4 {
+  text-align: center;
+  margin: 0 0 18px;
+  font-size: 1.5rem;
+}
+
+.hrpartner .top .calculator form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hrpartner .top .calculator select {
+  font-size: 1.125rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 6px;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+}
+
+.hrpartner .top .calculator div {
+  font-size: 1.125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 12px;
+}
+
+.hrpartner .top .calculator div span {
+  color: #4e91ff;
+  font-size: 2rem;
+  margin-right: 18px;
+}
+
+.hrpartner .feature {
+  background: #f8f8f8;
+  padding-top: 0;
+}
+
+.hrpartner .feature h2 {
+  font-size: 2.75rem;
+  margin-top: 0;
+}
+
+.hrpartner .feature > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hrpartner .feature > div div {
+  padding: 23px 20px;
+  margin: 15px 10px;
+  text-align: center;
+  width: 350px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.hrpartner .feature > div div:nth-child(2n)::after {
+  content: "";
+  display: block;
+}
+
+.hrpartner .feature > div h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.hrpartner .feature > div h4 img {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.hrpartner .feature > div p {
+  text-align: left;
+}
+
+.hrpartner .feature .subttl > span {
+  color: #292929;
+  display: block;
+  font-size: 1.875rem;
+}
+
+.hrpartner .feature .subttl > span span {
+  font-weight: bold;
+}
+
+.hrpartner .effect h2 {
+  font-size: 2.5rem;
+}
+
+.hrpartner .effect > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hrpartner .effect > div div {
+  background: linear-gradient(142deg, #3d3ab5 18%, #490a79 85%);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  font-size: 1.125rem;
+  margin: 25px;
+  text-align: center;
+}
+
+.hrpartner .effect > div span {
+  display: block;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.hrpartner .effect ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+.hrpartner .effect ul li {
+  margin: 0 15px;
+}
+
+.hrpartner .effect ul img {
+  width: 125px;
+}
+
+.hrpartner .partner {
+  background: #f8f8f8;
+}
+
+.hrpartner .partner h2 {
+  font-size: 2.25rem;
+}
+
+.hrpartner .partner > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hrpartner .partner > div div {
+  padding-bottom: 40px;
+  margin: 15px;
+  width: 415px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hrpartner .partner > div .banner {
+  height: 211px;
+}
+
+.hrpartner .partner > div .logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  right: 1rem;
+  top: 171px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hrpartner .partner > div h4 {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 1rem auto;
+}
+
+.hrpartner .partner > div p {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.75;
+  margin-bottom: 0;
+}
+
+.hrpartner .partner > p {
+  text-align: center;
+  font-size: 1.125rem;
+  color: #292929;
+}
+
+.hrpartner .ft {
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 10px;
+  background: #292929;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .hrpartner {
+    font-size: 14px;
+  }
+  .hrpartner h1, .hrpartner h2 {
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+  .hrpartner .subttl {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .hrpartner .top .calculator {
+    width: 85%;
+  }
+  .hrpartner .top .point div {
+    width: 48%;
+  }
+  .hrpartner .feature > div div {
+    width: 100%;
+    margin: 10px;
+  }
+  .hrpartner .partner > div div {
+    width: 100%;
+  }
+  .hrpartner .partner > div div h4 {
+    margin-right: 90px;
+  }
+  .hrpartner .partner p {
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+  .hrpartner .ft {
+    font-size: .8rem;
+    line-height: 1.8;
+  }
+}
+/*# sourceMappingURL=style.css.map */
